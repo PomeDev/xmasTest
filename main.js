@@ -112,14 +112,13 @@ particlesJS("particles-js", {
   });
 
   $(document).ready(function() {
-    
+    $(".xmas-wheel").click(function(){
+      $(".charity-box-relative-container").slideDown();
+    });
   })
 
   function loadCorrectImage(){
     let outcome = "loser";
-
-    gsap.from(".indiv-box-container", {y: 200, alpha: 0, duration: 1});
-    
 
     if (outcome == "winner") {
       $(".outcome-overlay img").attr("src", "./assets/img/winner.svg");
