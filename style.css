@@ -115,16 +115,9 @@ h1 {
 .charity-boxes-container {
     width: 100%;
     display: flex;
-    flex-wrap: wrap;
     justify-content: space-around;
     align-items:baseline;
     position:relative;
-    opacity: 1;
-    transition: 1s;
-}
-.charity-hidden {
-    transform: scale(0);
-    height: 0px;
 }
 
 .indiv-box-container {
@@ -175,7 +168,7 @@ footer img {
     color: #fff;
     font-family: "Agenda";
     padding: 30px;
-    font-size: 24px;
+    font-size: 20px;
 }
 .mobile-instructions-title {
     width: 100%;
@@ -332,7 +325,6 @@ footer img {
         width: 100%;
         overflow: scroll;
         padding-bottom: 25px;
-        border-bottom: 1px solid #8d8d8d;
     }
     .charity-boxes-container {
         width: 600px;
