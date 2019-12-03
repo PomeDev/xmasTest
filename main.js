@@ -111,12 +111,14 @@ particlesJS("particles-js", {
     "retina_detect": false
   });
 
+  $(document).ready(function() {
+    
+  })
+
   function loadCorrectImage(){
     let outcome = "loser";
 
-    $(".xmas-wheel").click(function(){
-      $(".charity-boxes-container").removeClass("charity-hidden");
-    })
+    gsap.from(".indiv-box-container", {y: 200, alpha: 0, duration: 1});
     
 
     if (outcome == "winner") {
