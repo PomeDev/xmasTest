@@ -339,7 +339,10 @@ footer img {
         opacity: 1;
     }
     footer {
-        margin-top: 50px;
+        margin-top: 25px;
+    }
+    footer p {
+        font-size: 10px;
     }
     .outcome-overlay img {
         width: 80%;
@@ -349,4 +352,17 @@ footer img {
     #particles-js {
         height: 150%;
     }
+}
+
+
+::-webkit-scrollbar {
+    /* -webkit-appearance: none; */
+    width: 10px;
+    height: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 50%;
+    border-bottom-right-radius: 50%;
+    background-color: rgba(0,0,0,.3);
 }
